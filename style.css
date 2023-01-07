@@ -139,6 +139,55 @@ header{
     line-height: 25px;
     font-family: 'Work Sans';
 }
+/* ux-desing */
+.ux-desing{
+    background: #e5e5e5;
+}
+.ux-title{
+    font-family: Montserrat,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ux-iteam{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    gap:20px;
+}
+.iteam-1, .iteam-2, .iteam-3,.iteam-4{
+    width: 240px;
+    background-color: #fff;
+    padding:35px;
+    border-top: 20px ;
+    border-radius: 5px;
+}
+.iteam-1 h2, .iteam-2 h2, .iteam-3 h2, .iteam-4 h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+.iteam-1 p, .iteam-2 p,.iteam-3 p,.iteam-4 p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+img{
+    width: 50px;
+}
+.ux-btn{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    color:#fff;
+    background-color: #005FAC;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 435px;
+}
 
 /* Positive Think */
 .positive-think-contain{
