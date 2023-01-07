@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding:80px 50px;
+}
+/* header section */
+header{
+    background-image: url("banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ .header-contian{
+    flex-direction: column;
+    display: flex;
+    align-items:flex-end;
+} 
+.header-title{
+   width: 530px;
+   color: #fff;
+   font-family: 'Work Sans';
+   font-size: 60px;
+   line-height: 75px;
+   text-align: right;
+   font-weight: 700;
+   margin-top: 30px;
+}
+
+.header-discirption{
+    width: 530px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    line-height: 26px;
+    color:#fff;
+    margin-top:25px;
+    margin-bottom: 35px; 
+}
+.header-btn{
+   font-size: 26px;
+   line-height: 22px;
+   font-weight: 600;
+   font-family: 'Work Sans';
+   color: #005FAC;
+   background-color: #fff;
+   padding: 20px 25px;
+   border: 0;
+   border-radius: 5px;
+   
+}
+
+/* About Section */
+.about{
+    display: flex;
+    grid-auto-flow: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-left-site{
+    width: 450px;
+}
+.about-left-site img{
+    width:100%;
+}
+.about-right-site{
+    width: 450px;
+}
+.about-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151414;
+    font-family: 'Work Sans';
+    line-height: 48px;
+}
+.about-dis{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    line-height: 26px;
+    color: #444343;;
+    margin-top:25px;
+    margin-bottom: 15px;
+}
+.about-lits{
+    list-style: none;
+}
+.about-lits li{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    line-height: 26px;
+    color:#444343;;
+    margin-bottom: 10px;
+    font-family: 'Work Sans';
+}
+.about-lits li .fa-check{
+    color:green;
+    margin-top: 3px;
+    margin-right: 8px;
+    
+}
+
+/* MY plans */
+.plan-title{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: 'Work Sans';
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.web h2,.js h2,.smo-hab h2,.ecom h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 20px 0;
+    font-family: 'Work Sans';
+}
+.web p, .js p, .smo-hab p, .ecom p{
+    font-size: 20px ;
+    font-weight: 700;
+    color: #737272;
+    line-height: 25px;
+    font-family: 'Work Sans';
+}
+
+/* Positive Think */
+.positive-think-contain{
+    background-image:url("img/gradient1.png"), url("img/watch.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.think-title{
+    width: 570px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    color:#fff;
+    font-family: 'Work Sans';
+}
+
+.think-btn{
+    background-color: #fff;
+    color: #005FAC;
+    padding: 16px 35px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    border:0;
+    font-family: 'Work Sans';
+}
+
+/* footer section */
+footer{
+    background: #151414;
+}
+
+.footer-contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    width: 490px;
+    color: #fff;
+}
+.footer-title{
+    font-family: 'Work Sans';
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.footer-dis{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 25px;
+} 
+.email{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.phone{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px; 
+}
+
+.footer-icon img{
+  margin-right: 20px;
+}
+.form{
+    width: 330px;
+    color: #fff;
+}
+.sub{
+    font-size: 25px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    background: #151414 ;
+    border: 1px solid #fff;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sub-btn{
+    font-size: 25px;
+   font-weight: 600;
+   font-family: 'Work Sans';
+   color:#fff;
+   background-color:  #005FAC;
+   padding: 20px 25px;
+   border: 0;
+   border-radius: 5px;
+}
